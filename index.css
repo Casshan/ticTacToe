@@ -1,0 +1,117 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+
+/* BODY */
+body {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: #e0ffcd;
+    font-family: 'Unbounded', cursive;
+}
+
+/* HEADER */
+header {
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #ffcab0; 
+    box-shadow: 0 0 12px -2px black;
+    overflow: auto;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    margin: 17px;
+    font-size: 20px;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 330px;
+    width: 250px;
+    min-width: 250px;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    margin-top: 250px;
+    border-radius: 20px;
+    border: solid 5px #ffebbb;
+    background-color: #fdffcd;
+    box-shadow: 0 0 12px -2px black;
+    padding: 10px;
+}
+
+.options h1 {
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+#winner {
+    font-size: 20px;
+}
+.options input {
+    height: 20px;
+    width: 200px;
+    margin: 2px;
+}
+
+.options button {
+    display: flex;
+    justify-content: center;
+    justify-self: end;
+    height: 20px;
+    width: 80px;
+    margin: 2px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 250px;
+    width: 350px;
+    height: 350px;
+    border: solid 5px #ffebbb;
+    border-radius: 20px;
+    background-color: #fdffcd;
+    box-shadow: 0 0 12px -2px black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.container div {
+    display: flex;
+    margin: 20px;
+    background-color: #ffcab0;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
